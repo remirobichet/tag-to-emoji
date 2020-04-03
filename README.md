@@ -1,5 +1,6 @@
 # tag-to-emoji
-:dizzy: Transform emoji tag to emoji
+
+> :dizzy: Transform emoji tag to emoji
 
 ## :gear: Installation
 
@@ -10,8 +11,6 @@ npm install tag-to-emoji
 ## :clipboard: Example
 
 ```js
-const m = require("../lib");
-
 let element = '<div>Hello :wave: World :earth_africa:!</div>';
 
 console.log(m.parse(element));
